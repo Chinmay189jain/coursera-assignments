@@ -1,0 +1,351 @@
+body {
+  font-size: 16px;
+  background: url('../images/pink.jpg');
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand h1 { /* shop name */
+  font-family: 'Lora', serif;
+  color: #FB0205;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list a:hover {
+  background: url('../images/brown.jpg');
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  margin-top: 50px;
+}
+
+.category-tile { 
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 216px;
+  margin: 0 auto 15px;
+  margin-bottom: 35px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #35021B;
+  color: #fff;
+  opacity: .8;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+#menu-categories-title {
+  color: #fff;
+  font-family: "Lucida Handwriting",cursive;
+}
+@media (min-width: 1200px) {
+  #header-nav {
+  background: url('../images/whiteone.jpg');
+  border-radius: 0px;
+  padding: 0px;
+  border: 0;
+  }
+  #logo-img {
+  background: url('../images/lord_mahaveer_large.png') no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 10px 15px 10px -60px;
+  }
+
+  .navbar-brand {
+  padding-top: 50px;
+  }
+
+  #nav-list a span {
+  font-size: 1.8em;
+  }
+
+  #phone {
+  margin-top: 5px;
+  }
+
+  #phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  color: #0C2C97;
+  }
+
+  #phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+  }
+
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 731px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #header-nav {
+  background: url('../images/whiteone.jpg');
+  border-radius: 0px;
+  padding: 0px;
+  border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/lord_mahaveer_medium.png') no-repeat;
+    width: 90px;
+    height: 90px;
+    margin: 5px 5px 5px -15px;
+  }
+
+  .navbar-brand {
+    padding-top: 8px;
+  }
+
+  .navbar-brand h1 { /* shop name */
+    padding-top: 10px;
+    font-size: 1.5em; 
+    margin-top: 20px;
+  }
+
+  #nav-list a span {
+  font-size: 1.2em;
+  }
+
+  #phone {
+  margin-top: -7px;
+  }
+
+  #phone a { /* Phone number */
+  padding-bottom: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  color: #0C2C97;
+  }
+
+  #phone div { /* contact */
+  color: #557c3e;
+  padding-right: 15px;
+  font-size: 0.6em;
+  text-align: right;
+  }
+
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 604px;
+  }
+  /* End Header */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+  background: url('../images/whiteone.jpg');
+  border-radius: 0px;
+  padding: 0px;
+  border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/lord_mahaveer_medium.png') no-repeat;
+    width: 90px;
+    height: 90px;
+    margin: 5px 5px 5px -15px;
+  }
+
+  .navbar-brand {
+    padding-top: 8px;
+  }
+
+  .navbar-brand h1 { /* shop name */
+    padding-top: 10px;
+    font-size: 1.5em; 
+    margin-top: 20px;
+  }
+
+  #nav-list a span {
+  font-size: 1.2em;
+  }
+
+  #phone {
+  margin-top: -7px;
+  }
+
+  #phone a { /* Phone number */
+  padding-bottom: 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: bold;
+  color: #0C2C97;
+  }
+
+  #phone div { /* contact */
+  color: #557c3e;
+  padding-right: 15px;
+  font-size: 0.6em;
+  text-align: right;
+  }
+
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 468px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 767px) {
+  #header-nav {
+  background: url('../images/whiteone.jpg');
+  border-radius: 0px;
+  padding: 0px;
+  border: 0;
+  height: 73px;
+  }
+
+  #logo-img {
+    background: url('../images/lord_mahaveer_small_medium.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px 5px 10px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+  }
+
+  .navbar-brand h1 { /* shop name */
+    padding-top: 10px;
+    font-size: 4vw; 
+    margin-left: 58px;
+    margin-top: -62px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 35px 100px 0 100px;
+    padding: 10px;
+    padding-top: -5px;
+    border: 1px solid #000;
+    background: url('../images/button.jpg');
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    color: #0C2C97;
+    text-align: center;
+    text-decoration: none;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    color: #000000;
+    font-style: bold;
+  }
+
+  .container .jumbotron {
+    padding: 0px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .category-tile { 
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 216px;
+  margin: 0 auto 15px;
+  margin-bottom: 35px;
+}
+}
+
+@media (max-width: 430px) {
+  #header-nav {
+  background: url('../images/whiteone.jpg');
+  border-radius: 0px;
+  padding: 0px;
+  border: 0;
+  height: 60px;
+  }
+
+  #logo-img {
+    background: url('../images/lord_mahaveer_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 8px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+  }
+
+  .navbar-brand h1 { /* shop name */
+    padding-top: 10px;
+    font-size: 3.5vw; 
+    margin-left: 50px;
+    margin-top: -59px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 35px 100px 0 100px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: url('../images/button.jpg');
+    text-align: center;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    color: #0C2C97;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    color: #000000;
+    font-style: bold;
+  }
+  
+  .container .jumbotron {
+    padding: 0px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .container h2 {
+    color: #000000;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
